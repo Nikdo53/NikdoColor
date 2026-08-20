@@ -27,15 +27,10 @@ jobs:
       - name: Run Gradle Publish
         run: ./gradlew publish
 
-      - name: Checkout to Maven repository
-        uses: actions/checkout@v7
-        with:
-          repository: nikdo53/nikdo53.github.io
-          token: ${{ secrets.MAVEN_TOKEN }}
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.MAVEN_TOKEN }}
+          external_repository: nikdo53/nikdo53.github.io
           publish_dir: ./build/maven
           keep_files: true
