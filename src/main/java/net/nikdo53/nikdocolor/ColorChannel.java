@@ -1,4 +1,4 @@
-package net.nikdo53.color;
+package net.nikdo53.nikdocolor;
 
 public enum ColorChannel {
     RED("Red"),

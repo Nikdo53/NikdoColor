@@ -1,4 +1,4 @@
-package net.nikdo53.color;
+package net.nikdo53.nikdocolor;
 
 public abstract class ColorFormat {
     public static final ColorFormat RGB = new ColorFormat(ColorChannel.RED, ColorChannel.GREEN, ColorChannel.BLUE) {

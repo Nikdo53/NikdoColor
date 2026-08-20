@@ -1,4 +1,4 @@
-package net.nikdo53.color;
+package net.nikdo53.nikdocolor;
 
 import java.util.function.BinaryOperator;
 import java.util.function.UnaryOperator;

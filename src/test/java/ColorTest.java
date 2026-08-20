@@ -1,4 +1,4 @@
-import net.nikdo53.color.NikdoColor;
+import net.nikdo53.nikdocolor.NikdoColor;
 import org.junit.jupiter.api.Test;
 
 public class ColorTest {
